@@ -5,9 +5,11 @@ public class FirstGit {
         System.out.println("hello git project");
         System.out.println("hello git project");
         System.out.println("hello git project");
+        test();
     }
 
-    public void test(){
-
+    //把test方法改成静态的，这样main方法才能调用
+    public static void test(){
+        System.out.println("git!git!git!");
     }
 }
