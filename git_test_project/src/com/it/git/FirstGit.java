@@ -12,5 +12,6 @@ public class FirstGit {
     public static void test(){
         System.out.println("git!git!git!");
         System.out.println("本地的master也想搞事");
+        System.out.println("dev搞事并推送远程");
     }
 }
